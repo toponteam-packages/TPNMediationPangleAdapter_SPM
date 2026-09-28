@@ -17,7 +17,7 @@ The TopOn Pangle mediation adapter for iOS, distributed via Swift Package Manage
    ```
    https://github.com/toponteam-packages/TPNMediationPangleAdapter_SPM
    ```
-3. Select **Exact Version** and enter the target version (e.g. `8.2.1-0.2.0`).
+3. Select **Exact Version** and enter the target version (e.g. `80201.2.0`).
 4. Add the `TPNMediationPangleAdapter` product to your app target.
 5. In your target's **Build Settings**, add `-ObjC` to **Other Linker Flags**.
 
@@ -27,7 +27,7 @@ The TopOn Pangle mediation adapter for iOS, distributed via Swift Package Manage
 dependencies: [
     .package(
         url: "https://github.com/toponteam-packages/TPNMediationPangleAdapter_SPM.git",
-        exact: "8.2.1-0.2.0"
+        exact: "80201.2.0"
     )
 ]
 ```
